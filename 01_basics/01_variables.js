@@ -1,0 +1,14 @@
+const accountId = 12345
+let accountEmail="deepma@google.in"
+var accountPassword="2345"
+accountCity ="Praygaraj"
+let accountState;
+
+// accountId=45678 **NOT ALLOWED**
+accountEmail="hc@hc.in"
+accountPassword="98754"
+accountCity="Meerut"
+/* we can declare variable by two ways using "let" and "var" but we prefer to not to use var
+ because of issue in block scope and functional scope
+*/ 
+console.table([accountId,accountEmail,accountPassword,accountCity ,accountState] )

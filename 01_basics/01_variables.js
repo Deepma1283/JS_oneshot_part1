@@ -1,7 +1,7 @@
-const accountId = 12345
+const accountId = 12345 // "const" keyword
 let accountEmail="deepma@google.in"
 var accountPassword="2345"
-accountCity ="Praygaraj"
+accountCity ="Prayagraj" // we can declare a variable this way as well but this is not considered a good way
 let accountState;
 
 // accountId=45678 **NOT ALLOWED**

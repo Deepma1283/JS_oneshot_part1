@@ -98,8 +98,8 @@ console.log(typeof myObj); // object
 // Functions
 const myFunc = function () {
     console.log("HELLO");
-    
 }
+console.log(myFunc())
 console.log(typeof myFunc); // function [as per documentation it is object function but in reality it is function]
  
 

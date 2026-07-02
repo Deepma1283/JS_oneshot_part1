@@ -18,6 +18,8 @@ console.log(myCreatedDate.toLocaleString()); //1/14/2023, 12:00:00 AM
 let myTimeStamp = Date.now()
 // It returns the millisecond value from midnight of January 1, 1970, to the current date and time. 
 console.log(myTimeStamp);
+
+// This is the number of milliseconds from January 1, 1970, 00:00:00 UTC to myCreatedDate.
 console.log(myCreatedDate.getTime());
 
 // This converts milliseconds to seconds by dividing the millisecond value by 1000 and rounding down to the nearest whole number using Math.floor() for avoiding decimal places.
